@@ -1,8 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../App.css'
 
 function Home() {
   const [showContact, setShowContact] = useState(false)
+
+  useEffect(() => {
+    document.title = 'Carl Hockey'
+  }, [])
 
   return (
     <div className="app">

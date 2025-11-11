@@ -1,8 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './ThirtyBirthday.css'
 
 function ThirtyBirthday() {
   const [openFaq, setOpenFaq] = useState(null)
+
+  useEffect(() => {
+    document.title = "Carl's 30th"
+  }, [])
   const [rsvpData, setRsvpData] = useState({
     fullName: '',
     email: '',
@@ -20,7 +24,7 @@ function ThirtyBirthday() {
     },
     {
       question: "What do we do afterwards?",
-      answer: "After the expedition what you do is up to you. I'll be staying in El Nido for a couple days, and we may have an after party there. Let me know if you'd like suggestions planning your next steps."
+      answer: "After the expedition what you do is up to you. I'll be staying in El Nido for a couple days, and we may have an after party there. I'll let everyone know my plans a bit closer to the time for anyone who wants to keep hanging out, and feel free to reach out if you'd like suggestions."
     },
     
     {
