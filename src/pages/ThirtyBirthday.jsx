@@ -250,7 +250,7 @@ function ThirtyBirthday() {
         <div className="thirty-container">
           {/* Activities */}
           <section className="thirty-info-section">
-            <h2 className="thirty-section-title">$475 AUD for 3 days of:</h2>
+            <h2 className="thirty-section-title">$485 AUD pp for 3 days of:</h2>
             <ul className="thirty-activities">
               {activities.map((activity, index) => (
                 <li key={index} className="thirty-activity-item">
