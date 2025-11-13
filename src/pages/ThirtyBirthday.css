@@ -396,6 +396,29 @@
   }
 }
 
+/* Mobile Scroll Indicator */
+.thirty-scroll-indicator-mobile {
+  display: none;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: 'Sailors Condensed', sans-serif;
+  font-size: 1.5rem;
+  color: #001f47;
+  opacity: 0.6;
+  animation: bounceArrowMobile 2s infinite;
+}
+
+@keyframes bounceArrowMobile {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(5px);
+    opacity: 0.4;
+  }
+}
+
 /* Content Section */
 .thirty-content {
   padding: 4rem 0;
@@ -736,13 +759,11 @@
   }
 
   .thirty-scroll-arrow {
-    bottom: 1rem;
+    display: none;
   }
 
-  .thirty-scroll-arrow span {
-    font-size: 1.5rem;
-    width: 40px;
-    height: 40px;
+  .thirty-scroll-indicator-mobile {
+    display: block;
   }
 }
 

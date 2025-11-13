@@ -45,7 +45,7 @@ function ThirtyBirthday() {
     "Volleyball",
     "Traditional Filipino meals",
     "Island accomodation",
-    "Unlimited Rum & soft drinks",
+    "Rum & soft drinks",
     "Live Music"
   ]
 
@@ -239,6 +239,7 @@ function ThirtyBirthday() {
               </div>
             )}
           </form>
+          <div className="thirty-scroll-indicator-mobile">↓</div>
         </div>
         <div className="thirty-scroll-arrow">
           <span>↓</span>
