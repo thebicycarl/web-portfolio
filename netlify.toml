@@ -2,8 +2,17 @@
   command = "npm run build"
   publish = "dist"
 
+# SPA redirect - handles all routes for simple projects in monorepo
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Example: If you want to host a complex project in a separate repo,
+# uncomment and modify the redirect below to proxy to that project:
+# [[redirects]]
+#   from = "/chess/*"
+#   to = "https://chess-app.netlify.app/:splat"
+#   status = 200
+#   force = true
 

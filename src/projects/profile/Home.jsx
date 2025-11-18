@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import '../App.css'
+import './Profile.css'
 
 function Home() {
   const [showContact, setShowContact] = useState(false)
