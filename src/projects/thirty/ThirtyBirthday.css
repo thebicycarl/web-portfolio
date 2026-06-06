@@ -681,6 +681,7 @@
   }
   .thirty-subtitle-top,
   .thirty-subtitle-bottom { font-size: 1.5625rem; } /* +25% */
+  .thirty-subtitle-bottom { color: white; }
   .thirty-subtitle-dates { font-size: 1.25rem; } /* +25% */
 
   .thirty-info-section {
