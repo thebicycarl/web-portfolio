@@ -138,7 +138,7 @@ function ThirtyBirthday() {
               <span className="thirty-title-line">HOPPING</span>
             </h1>
             <div className="thirty-subtitle-bottom">Coron to El Nido, Philippines</div>
-            <div className="thirty-subtitle-dates">4, 5, 6 October 2026</div>
+            <div className="thirty-subtitle-dates">5, 6, 7 October 2026</div>
           </div>
           
           {/* RSVP Form */}
