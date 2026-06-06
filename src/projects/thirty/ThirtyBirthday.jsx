@@ -276,7 +276,7 @@ function ThirtyBirthday() {
             </div>
             <div className="thirty-location-text">
               <p>The expedition will be starting at 9am on 5th of October from the Coron docks. Finishing approx 5pm on 7th October in El Nido.</p>
-              <p>I fly in to Coron on the 1st of October and out of Puerto Princesa on the 13th. You're welcome to join me freediving on shipwrecks in Coron beforehand, and kayaking and island hopping around El Nido after.  </p>
+              <p>I fly in to Coron on the 1st of October and out of Puerto Princesa on the 13th. You're welcome to join me freediving on shipwrecks in Coron beforehand, and kayaking and island hopping around El Nido after. I recommend checking out Port Barton and Sabang beach on your way to fly out of Puerto Princesa.</p>
               <p>Check your flight prices flying through both Manila and Cebu. I also highly recommend exploring Cebu Island.</p>
             </div>
           </section>
