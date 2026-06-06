@@ -11,7 +11,6 @@ src/
   projects/
     profile/          # logicarl.com/ (main profile page)
     thirty/           # logicarl.com/30th
-    chess/            # logicarl.com/chess (future project)
   App.jsx             # Main router
 ```
 
@@ -81,7 +80,7 @@ For complex projects that need strict isolation or different tech stacks:
    ```
 4. The project will appear at `logicarl.com/[project-name]` (URL stays in address bar)
 
-Example: The chess app could be a separate repo if it needs different dependencies or build processes.
+Example: Complex apps with different tech stacks can be hosted separately and proxied through this monorepo.
 
 ## Features
 

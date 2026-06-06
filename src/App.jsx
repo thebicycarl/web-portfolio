@@ -20,9 +20,6 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/30th" element={<ThirtyBirthday />} />
-      {/* Future projects can be added here, e.g.:
-          <Route path="/chess" element={<ChessApp />} />
-      */}
     </Routes>
   )
 }

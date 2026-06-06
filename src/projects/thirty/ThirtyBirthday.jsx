@@ -24,12 +24,12 @@ function ThirtyBirthday() {
     },
     {
       question: "What do we do afterwards?",
-      answer: "After the expedition what you do is up to you. I'll be staying in El Nido for a couple days, and we may have an after party there. I'll let everyone know my plans a bit closer to the time for anyone who wants to keep hanging out, and feel free to reach out if you'd like suggestions."
+      answer: "After the expedition what you do is up to you. I'll be staying in El Nido for a couple days, and we may have an after party there. I'll be spending a few days kayaking and island hopping around El Nido, join me!"
     },
     
     {
       question: "When do I have to confirm?",
-      answer: "Lock in by the end of jan. I'll take a $100 deposit around then to confirm our boat(s) booking "
+      answer: "Lock in by the end of June. I'll take a $100 deposit around then to confirm our boat booking "
     },
     {
       question: "Can I invite others?",
@@ -138,7 +138,7 @@ function ThirtyBirthday() {
               <span className="thirty-title-line">HOPPING</span>
             </h1>
             <div className="thirty-subtitle-bottom">Coron to El Nido, Philippines</div>
-            <div className="thirty-subtitle-dates">6, 7, 8 April 2026</div>
+            <div className="thirty-subtitle-dates">4, 5, 6 October 2026</div>
           </div>
           
           {/* RSVP Form */}
@@ -275,8 +275,8 @@ function ThirtyBirthday() {
               />
             </div>
             <div className="thirty-location-text">
-              <p>The expedition will be starting at 9am on 6th of April from the Coron docks. Finishing approx 5pm on 8th April in El Nido.</p>
-              <p>Afterwards I recommend hanging out in El Nido for a couple days, then checking out Port Barton and Sabang beach on your way to fly out of Puerto Princesa. I'm sure there are plenty of other beautiful places in Palawan too if you have time.</p>
+              <p>The expedition will be starting at 9am on 5th of October from the Coron docks. Finishing approx 5pm on 7th October in El Nido.</p>
+              <p>I fly in to Coron on the 1st of October, and out of Puerto Princesa on the 13th.</p>
               <p>Check your flight prices flying through both Manila and Cebu. I also highly recommend exploring Cebu Island.</p>
             </div>
           </section>
