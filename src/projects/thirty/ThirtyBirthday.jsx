@@ -82,6 +82,13 @@ function ThirtyBirthday() {
     setIsSubmitting(true)
     setSubmitMessage('')
 
+    const scriptUrl = import.meta.env.VITE_RSVP_SCRIPT_URL
+    if (!scriptUrl) {
+      setSubmitMessage('RSVP is not configured yet. Please try again later.')
+      setIsSubmitting(false)
+      return
+    }
+
     try {
       const submissionData = {
         Name: rsvpData.fullName,
@@ -91,17 +98,18 @@ function ThirtyBirthday() {
         Timestamp: new Date().toISOString()
       }
 
-      const response = await fetch('https://api.sheetbest.com/sheets/5e4718a7-59e8-41f1-9451-a8961cf56b2b', {
+      const response = await fetch(scriptUrl, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'text/plain;charset=utf-8',
         },
         body: JSON.stringify(submissionData)
       })
 
-      if (response.ok) {
+      const result = await response.json()
+
+      if (response.ok && result.success) {
         setSubmitMessage('Cheahoo lets gooo!')
-        // Reset form
         setRsvpData({
           fullName: '',
           email: '',
@@ -110,7 +118,7 @@ function ThirtyBirthday() {
           lockedIn: ''
         })
       } else {
-        throw new Error('Failed to submit RSVP')
+        throw new Error(result.error || 'Failed to submit RSVP')
       }
     } catch (error) {
       console.error('Error submitting RSVP:', error)

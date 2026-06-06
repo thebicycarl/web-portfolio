@@ -2,6 +2,9 @@
   command = "npm run build"
   publish = "dist"
 
+[build.environment]
+  VITE_RSVP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwOsWf0ruiCvJqvbfZZBbfxYsoN5c5gL-x1r9s7dYaN_eRvfo6oeDVfbStrrZvdA2w/exec"
+
 # SPA redirect - handles all routes for simple projects in monorepo
 [[redirects]]
   from = "/*"
