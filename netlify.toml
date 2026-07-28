@@ -7,18 +7,6 @@
 
 # SPA redirect - handles all routes for simple projects in monorepo
 [[redirects]]
-  from = "/smoothieoperator/*"
-  to = "https://smoothie-operator.netlify.app/smoothieoperator/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/smoothieoperator"
-  to = "https://smoothie-operator.netlify.app/smoothieoperator"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
